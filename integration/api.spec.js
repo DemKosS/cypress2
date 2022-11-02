@@ -6,7 +6,7 @@ cy.request({
     body: {
       id: 1,
       category: {id: 0, name: "string"},
-      name: "bobik",
+      name: "sharik",
       photoUrls: ["string"],
       tags: [{
           id: 0,
