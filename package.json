@@ -5,15 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "cy:admin":"cypress run --spec 'cypress/e2e/admin.login.cy.js' --record --key 114a73db-2ad4-40bc-b28b-b3f955e42e47",
-    "cy:dashboard":"cypress run --spec 'cypress/e2e/cinema.dashboard.cy.js' --record --key 114a73db-2ad4-40bc-b28b-b3f955e42e47",
-    "cy:tickets":"cypress run --spec 'cypress/e2e/ticket.buying.cy.js' --record --key 114a73db-2ad4-40bc-b28b-b3f955e42e47",
+    "cy:admin":"cypress run --spec 'cypress/e2e/admin.login.cy.js' --record --key db10e0e4-5c58-46c2-bc1f-2e47c2ff8b06",
+    "cy:dashboard":"cypress run --spec 'cypress/e2e/cinema.dashboard.cy.js' --record --key db10e0e4-5c58-46c2-bc1f-2e47c2ff8b06",
+    "cy:tickets":"cypress run --spec 'cypress/e2e/ticket.buying.cy.js' --record --key db10e0e4-5c58-46c2-bc1f-2e47c2ff8b06",
     "cy:parallel":"npm run cy:dashboard & npm run cy:tickets",
     "cy:chrome":"npm run cy:parallel --browser chrome",
     "cy:edge":"npm run cy:parallel --browser edge",
     "cy:electron":"npm run cy:parallel --browser electron",
     "cy:paralleleComplete":"npm run cy:dashboard --browser chrome & npm run cy:tickets --browser edge",
-    "cy:folders":"cypress run --spec 'cypress/folder' $ cypress run --spec 'cypress/folder.second' --record --key 114a73db-2ad4-40bc-b28b-b3f955e42e47"
+    "cy:folders":"cypress run --spec 'cypress/folder' $ cypress run --spec 'cypress/folder.second' --record --key db10e0e4-5c58-46c2-bc1f-2e47c2ff8b06"
   },
   "keywords": [],
   "author": "",
